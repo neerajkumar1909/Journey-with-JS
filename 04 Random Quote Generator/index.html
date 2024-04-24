@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://kit.fontawesome.com/f86a18ec97.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <p>randomCaption</p>
+        <a href="https://api.quotable.io" target="_blank">About</a>
+        <a href="#">Share</a>
+        <a href="#">Support</a>
+    </div>
+
+    <!-- Container -->
+    <div class="container">
+        <h1>Random Quotes</h1>
+        <p>Generator for instagram</p>
+        <div class="author">
+            <span id="author"></span>
+        </div>
+        <div class="quote">
+            <span id="random"></span>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button onclick="window.location.reload()">Next <i class="far fa-arrow-alt-circle-right"></i> </button>
+            <button onclick="copyTextFunc()">Copy <i class="far fa-clone"></i></button>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Made by Ranjeet Saw with quotable.io REST-API</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
