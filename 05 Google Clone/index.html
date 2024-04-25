@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <title>New Tab</title>
+
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <link href="google_icon.webp" rel="icon">
+</head>
+
+<body>
+    <section>
+        <!-- Top bar -->
+        <div class="header" id="header">
+            <ul>
+                <div class="theme-switch-container">
+                    <label class="theme-slider" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="round slider"></div>
+                    </label>
+
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><button>Sign In</button></li>
+                </div>
+            </ul>
+        </div>
+
+        <!-- Middle search -->
+        <div class="image-g">
+            <img src="./google.png" alt="google" class="brand" />
+            <div class="search-box">
+                <input type="text" placeholder="Search Google or type URL" class="search" id="search" />
+                <div class="icons">
+                    <div>
+                        <div><img class="input-img" src="./google_search_icon.png" alt="" /></div>
+                    </div>
+                    <div class="icons-two">
+                        <div><img class="input-img" src="./google_mic.png" alt="" /></div>
+                        <div><img class="input-img" src="./google_lens_icon.png" alt="" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button onclick="search()">Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+            <ul class="language">
+                <li>Google offered in language :</li>
+                <li><a href="#" class="href">हिन्दी</a></li>
+                <li><a href="#" class="href">मराठी</a></li>
+                <li><a href="#" class="href">ગુજરાતી</a></li>
+                <li><a href="#" class="href">ਪੰਜਾਬੀ</a></li>
+                <li><a href="#" class="href">ಕನ್ನಡ</a></li>
+                <li><a href="#" class="href">বাংলা</a></li>
+                <li><a href="#" class="href">తెలుగు</a></li>
+                <li><a href="#" class="href">தமிழ்</a></li>
+                <li><a href="#" class="href">മലയാളം</a></li>
+            </ul>
+        </div>
+
+        <!-- Footer part -->
+        <div class="footer">
+            <div class="row row1">
+                <p class="country">India</p>
+            </div>
+
+            <div class="row row2">
+                <ul>
+                    <li><a href="#" class="href">Advertising</a></li>
+                    <li><a href="#" class="href">Business</a></li>
+                    <li><a href="#" class="href">About</a></li>
+                    <li><a href="#" class="href">How search works</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#" class="href">Privacy</a></li>
+                    <li><a href="#" class="href">Terms</a></li>
+                    <li><a href="#" class="href">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
