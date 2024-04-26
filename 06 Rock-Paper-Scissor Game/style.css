@@ -17,6 +17,13 @@
   color: #fff;
 }
 
+h1 {
+  margin-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
 .flexbox {
   display: grid;
   align-items: center;
