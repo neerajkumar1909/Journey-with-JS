@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: teal;
+  color: #fff;
+}
+
+.flexbox {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  cursor: pointer;
+}
+.option {
+  font-size: 3.5rem;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.score,
+.user,
+.bot {
+  font-size: 1.3rem;
+}
+
+.current-results {
+  display: flex;
+  gap: 4rem;
+  margin-top: 50px;
+}
+.result,
+.user-choice,
+.bot-choice {
+  font-size: 2rem;
+}
+
+.restart {
+  background-color: red;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
