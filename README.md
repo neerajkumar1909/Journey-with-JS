@@ -7,4 +7,5 @@ Live links ============================
 04 Random Quote Generator : https://quotegenerator-neeraj.netlify.app/                                                                                                                                                   
 05 Google Clone :  https://googleclone-neeraj.netlify.app/                                                                                                                                                             
 
-06 Rock-Paper-Scissors Game : https://rps-game-neeraj.netlify.app/
+06 Rock-Paper-Scissors Game : https://rps-game-neeraj.netlify.app/                                                                                                                                                     
+07 Upload Image : https://uploadimage-neeraj.netlify.app/
