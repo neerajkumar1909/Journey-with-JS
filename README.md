@@ -10,4 +10,3 @@ Live links ============================
 07 Upload Image : https://uploadimage-neeraj.netlify.app/                                                                                                                                                            
 08 Weather App : https://weatherappp-neeraj.netlify.app/                                                                                                                                                              
 09 NavClick and Scroll : https://clickscroll-neeraj.netlify.app/                                                                                                                                                       
-10 Stop Watch : https://stopwatch-neeraj.netlify.app
