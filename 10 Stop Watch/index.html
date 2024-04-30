@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading"
+        style="text-align: center; margin-top: 50px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 45px; font-weight: 600;">
+        Stop Watch</h1>
+    <div class="stopwatch">
+        <h1 id="displayTime">00:00:00 </h1>
+        <div class="buttons">
+            <img src="./images/stop.png" alt="" onclick="pauseWatch()">
+            <img src="./images/start.png" alt="" onclick="startWatch()">
+            <img src="./images/reset.png" alt="" onclick="resetWatch()">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
