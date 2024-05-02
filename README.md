@@ -11,4 +11,5 @@ Live links ============================
 08 Weather App : https://weatherappp-neeraj.netlify.app/                                                                                                                                                              
 09 NavClick and Scroll : https://clickscroll-neeraj.netlify.app/                                                                                                                                                       
 10 Dark Mode Toggle Button : https://darkmodetoggle-neeraj.netlify.app/                                                                                                                                               
-11 Digital Clock : https://digitalclock-neeraj.netlify.app/
+11 Digital Clock : https://digitalclock-neeraj.netlify.app/                                                                                                                                                            
+12 Text to Speech : https://texttospeech-neeraj.netlify.app
