@@ -1,0 +1,50 @@
+body{
+    background: #e3e3e2;
+    box-sizing: border-box;
+    background-image: radial-gradient(#85afc9, #343a40);
+    overflow: hidden;
+    
+}
+.heading{
+    text-align: center; 
+    margin-top: 70px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 45px; 
+    font-weight: 600;
+    color : whitesmoke;
+    text-shadow: 0px 10px 20px #010612;
+}
+
+.stopwatch{
+    width : 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('./images/background_image.jpg');
+    background-size :cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color : white;
+    margin : 100px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 40px;
+}
+
+.stopwatch h1 {
+    margin-top: 60px;
+    font-size: 4rem;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img{
+    width : 50px;
+    margin : 0 20px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    width : 80px;
+}
