@@ -13,4 +13,5 @@ Live links ============================
 10 Dark Mode Toggle Button : https://darkmodetoggle-neeraj.netlify.app/                                                                                                                                               
 11 Digital Clock : https://digitalclock-neeraj.netlify.app/                                                                                                                                                            
 12 Text to Speech : https://texttospeech-neeraj.netlify.app                                                                                                                                                                
-13 Stop Watch : https://stopwatch-neeraj.netlify.app    
+13 Stop Watch : https://stopwatch-neeraj.netlify.app                                                                                                                                                                   
+14 Toggle Password : https://togglepassword-neeraj.netlify.app/
