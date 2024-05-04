@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Toggle Password</title>
+
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+            background-color: #d3e3dd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <input type="password" id="pass" placeholder="password.."> <br />
+        <label for="showPassword">
+            <input type="checkbox" id="check" class="hidden-checkbox">
+            <!-- <i class="fa fa-eye"></i> -->
+        </label>
+
+    </div>
+
+    <script>
+        check.onclick = togglePassword;
+
+        function togglePassword() {
+            if (check.checked) pass.type = "text";
+            else pass.type = "password";
+        }
+    </script>
+</body>
+
+</html>
