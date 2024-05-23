@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+
+    <div class="main-container">
+        <!-- output -->
+        <div id="output">00</div>
+
+        <!-- input -->
+        <input type="text" id="input1" placeholder="Value1">
+        <input type="text" id="input2" placeholder="Value2">
+
+        <!-- buttons -->
+        <div class="btns-container">
+            <button class="btns" onclick="add()">Addition</button>
+            <button class="btns" onclick="sub()">Subtraction</button>
+            <button class="btns" onclick="multi()">Multiplication</button>
+            <button class="btns" onclick="divide()">Division</button>
+            <button class="btns" onclick="reset()" id="reset">Reset</button>
+        </div>
+
+        <footer>
+            <a href="https://www.instagram.com/neerajkumar_24">By Neeraj Verma</a>
+        </footer>
+    </div>
+
+
+    <!-- javascript -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
